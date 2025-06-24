@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="src/css/cart.css">
+    <link rel="stylesheet" href="src/css/mainFooter.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="menu">
+
+    <!--Barra de navegação "navigation"-->
+    <img class="icon" src="assets/img/fullsize_2013_10_28_19_Logo-LV-61610_7211_043432695_758228390.jpg" alt="">
+
+        <nav class="navigation">
+          <a class="home" href="index.html">Home</a>
+          <a class="shop" href="shop.html">Shop</a>
+          <a class="cart" href="cart.html">Cart</a>
+          <a class="cart" href="singUp.html">Sing-Up</a>
+          <a class="cart" href="login.html">Log-in</a>
+     
+        </nav>
+     
+      </header>
+
+      <!--Conteúdo Principal-->
+      <main class="mainIdeaHome">
+        
+        <div id="tabela">
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor Unitário</th>
+                <th>Total</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-body"></tbody>
+          </table>
+          <div id="total"></div>
+          <button id="comprar">Comprar</button>
+        </div>
+        
+
+    <script src="src/javaScript/cart.js"></script>
+
+      </main>
+
+      <!--Rodapé-->
+      <footer class="mainFooter">
+          <div class="socialIcons">
+          <a class="facebook" href=""><i class="fa-brands fa-facebook"></i></a>
+          <a class="instagram" href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="twitter" href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="youtube" href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+    
+          <div class="footerNav">
+              <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Our Team</a></li>
+              </ul>
+          </div>
+        </footer>
+    
+        <div class="footerBottom">
+          <p>Copyright &copy;2024; Designed by Baumann. Gabriel</p>
+        </div>
+</body>
+</html>
